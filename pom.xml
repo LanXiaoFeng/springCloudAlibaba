@@ -65,6 +65,10 @@
         <module>cloudAlibaba-consumer-8083</module>
         <module>cloudalibaba-config-3377</module>
         <module>cloudalibaba-sentinel-service8401</module>
+        <module>cloudalibaba-commons</module>
+        <module>cloudalibaba-consumer8084</module>
+        <module>cloudalibaba-provider-9003</module>
+        <module>cloudalibaba-provider-9004</module>
     </modules>
 
 </project>
