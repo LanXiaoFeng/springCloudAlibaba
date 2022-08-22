@@ -64,6 +64,7 @@
         <module>cloudAlibaba-Nacos-9002</module>
         <module>cloudAlibaba-consumer-8083</module>
         <module>cloudalibaba-config-3377</module>
+        <module>cloudalibaba-sentinel-service8401</module>
     </modules>
 
 </project>

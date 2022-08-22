@@ -8,9 +8,9 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: http://192.168.75.3:8848 #Nacos服务注册中心地址
+        server-addr: http://192.168.75.3:81 #Nacos服务注册中心地址
       config:
-        server-addr: http://192.168.75.3:8848 #Nacos作为配置中心地址
+        server-addr: http://192.168.75.3:81 #Nacos作为配置中心地址
         file-extension: yaml #指定yaml格式的配置
 #        group: TEST_GROUP #增加分组
 #        namespace: 181c6592-f445-4af4-8712-93e15bbe34f0

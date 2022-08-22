@@ -1,0 +1,25 @@
+server:
+  port: 8401
+
+spring:
+  application:
+    name: cloudalibaba-sentinel-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://192.168.75.3:81 #Nacos服务注册中心地址
+      config:
+        server-addr: http://192.168.75.3:81 #Nacos作为配置中心地址
+        file-extension: yaml #指定yaml格式的配置
+    sentinel:
+      transport:
+        # 配置Sentinel dashboard地址
+        dashboard: http://192.168.75.3:8080
+        # 默认8719端口，键入被占用会自动从8719+1，直到找到未被占用的端口
+        port: 8719
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
